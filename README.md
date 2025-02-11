@@ -1,2 +1,4 @@
-# sentimentAnalysis
-A basic project using the TextBlob library for sentiment analysis
+# Sentiment Analysis
+A basic project using the TextBlob library for sentiment analysis.
+
+
