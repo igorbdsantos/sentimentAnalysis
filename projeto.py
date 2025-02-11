@@ -11,18 +11,18 @@ def analyze_sentiment(text):
     polarity = analysis.sentiment.polarity
     
     if polarity > 0:
-        return "Positivo"
+        return "Positive"
     elif polarity < 0:
-        return "Negativo"
+        return "Negative"
     else:
-        return "Neutro"
+        return "Neutral"
 
 if __name__ == "__main__":
-    print("Analisador de Sentimentos")
+    print("Sentiment Analysis")
     while True:
-        text = input("Digite um texto (ou 'sair' para encerrar): ")
-        if text.lower() == 'sair':
+        text = input("Enter a feeling (or 'exit' to quit: ")
+        if text.lower() == 'exit':
             break
         sentiment = analyze_sentiment(text)
-        print(f"Sentimento: {sentiment}\n")
+        print(f"Sentiment: {sentiment}\n")
 
